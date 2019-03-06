@@ -1,7 +1,22 @@
 h1 {
     font-family: Arial, sans-serif;
+    color: rgba(255, 51, 0, 0.753) ;
   }
   
   body {
     background-color: pink;
   }
+
+  nav ul {
+    list-style: none;
+    font-family: Arial, sans-serif;
+    color: rgba(255, 0, 0, 0.719);
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+
