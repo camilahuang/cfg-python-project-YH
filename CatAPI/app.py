@@ -48,7 +48,9 @@ def see_favourites():
     return render_template('favourites.html', data=data)
 
 if __name__ == '__main__':
-    if 'PORT' in os.environ:
-     app.run(host='0.0.0.0', port=int(os.environ['PORT']))
-    else:
-         app.run(debug=True)
+<<<<<<< Updated upstream
+if __name__ == '__main__':
+    app.run('0.0.0.0', port=5000)
+=======
+
+>>>>>>> Stashed changes
