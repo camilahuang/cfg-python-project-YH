@@ -47,10 +47,7 @@ def see_favourites():
     print(data)
     return render_template('favourites.html', data=data)
 
-if __name__ == '__main__':
-<<<<<<< Updated upstream
+
 if __name__ == '__main__':
     app.run('0.0.0.0', port=5000)
-=======
 
->>>>>>> Stashed changes
